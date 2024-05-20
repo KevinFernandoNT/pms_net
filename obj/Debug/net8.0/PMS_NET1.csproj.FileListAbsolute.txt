@@ -35,3 +35,4 @@
 /home/nuclei/Desktop/dotnet/PMS_NET1/obj/Debug/net8.0/PMS_NET1.csproj.AssemblyReference.cache
 /home/nuclei/Desktop/dotnet/PMS_NET1/obj/Debug/net8.0/PMS_NET1.MvcApplicationPartsAssemblyInfo.cs
 /home/nuclei/Desktop/dotnet/PMS_NET1/obj/Debug/net8.0/PMS_NET1.csproj.Up2Date
+/home/nuclei/Desktop/dotnet/PMS_NET1/obj/Debug/net8.0/PMS_NET1.sourcelink.json
