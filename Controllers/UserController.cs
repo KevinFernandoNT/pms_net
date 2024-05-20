@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 namespace PMS_NET1.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("user")]
     public class UserController : ControllerBase
     {
         private readonly ILogger<UserController> _logger;
@@ -15,10 +15,12 @@ namespace PMS_NET1.Controllers
             _logger = logger;
         }
 
-        [HttpGet("SayHello")]
-        public IActionResult SayHello()
+        [HttpPost("SayHello/{name}")]
+        public IActionResult SayHello(string name)
         {
-            return Ok("Hello"); // Return an HTTP 200 OK response with the content
+
+            string greeting =  $"Hello, {name}!";
+            return Ok(greeting); // Return an HTTP 200 OK response with the content
         }
 
         [HttpGet("Error")]

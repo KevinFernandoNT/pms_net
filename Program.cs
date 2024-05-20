@@ -24,7 +24,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "api/{controller=Home}/{action=Index}");
 
 app.UseSwagger();
 app.UseSwaggerUI(options =>  {
