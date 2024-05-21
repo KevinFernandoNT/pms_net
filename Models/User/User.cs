@@ -1,10 +1,15 @@
+// File: Models/LoginRequest.cs
 using System.ComponentModel.DataAnnotations;
-
-namespace PMS_NET1.Models.Auth {
-
-public class RegisterRequest
+    
+namespace PMS_NET1.Models.User
 {
-    // Personal Information
+#pragma warning disable CS8618
+
+      public class User
+    {
+
+    public int Id { get; set; }
+        // Personal Information
     [Required]
     [StringLength(50, MinimumLength = 1)]
     public string FirstName { get; set; }
@@ -65,7 +70,6 @@ public class RegisterRequest
     [StringLength(500)]
     public string SpecialRequests { get; set; }
 }
-
+#pragma warning restore CS8618
 
 }
-

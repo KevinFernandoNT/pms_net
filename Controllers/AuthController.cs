@@ -9,7 +9,7 @@ public class AuthController : ControllerBase
 {
     // POST /api/auth/login
     [HttpPost("login")]
-    public IActionResult Login([FromBody] LoginRequest request)
+    public IActionResult Login([FromBody] LoginRequestDto request)
     {
         // Implement authentication logic here
         // Example: Validate username and password, generate token
@@ -19,7 +19,7 @@ public class AuthController : ControllerBase
 
     // POST /api/auth/register
     [HttpPost("register")]
-    public IActionResult Register([FromBody] RegisterRequest request)
+    public IActionResult Register([FromBody] RegisterRequestDto request)
     {
         // Implement registration logic here
         // Example: Create new user in database
