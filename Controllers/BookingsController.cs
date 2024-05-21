@@ -8,7 +8,7 @@ namespace PMS_NET1.Controllers
 {
     [Route("bookings")]
     [ApiController]
-    public class RoomsController : ControllerBase
+    public class BookingsController : ControllerBase
     {
         private static List<Room> Rooms = new List<Room>
         {
