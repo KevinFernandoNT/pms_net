@@ -1,20 +1,20 @@
 // Controllers/RoomsController.cs
 using Microsoft.AspNetCore.Mvc;
-using System;
+using PMS_NET1.Models.Organization;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace PMS_NET1.Controllers
 {
-    [Route("roomTypes")]
+    [Route("organization")]
     [ApiController]
     public class OrganizationController : ControllerBase
     {
-    [HttpGet]
-    public ActionResult<string> GetOrganizations()
-{
-       return Content("Get organizations");
-}
+//     [HttpGet]
+//     public ActionResult<string> GetOrganizations()
+// {
+//        return Content("Get organizations");
+// }
         [HttpGet("{id}")]
         public ActionResult<string> GetOrganization(int id)
         {

@@ -69,6 +69,12 @@ namespace PMS_NET1.Models.User
 
     [StringLength(500)]
     public string SpecialRequests { get; set; }
+
+    [StringLength(500)]
+    public string Role { get; set; }
+
+    [Required]
+    public int Organization { get; set; }
 }
 #pragma warning restore CS8618
 

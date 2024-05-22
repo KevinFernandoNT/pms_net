@@ -1,4 +1,6 @@
-    #pragma warning disable CS8618
+namespace PMS_NET1.Models.Organization
+{
+#pragma warning disable CS8618
 
 
 public class Organization
@@ -10,4 +12,6 @@ public class Organization
     public string Phone { get; set; }
     public string Email { get; set; }
     public string Website { get; set; }
+}
+
 }

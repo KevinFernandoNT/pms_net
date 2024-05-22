@@ -1,5 +1,3 @@
-
-
 namespace  PMS_NET1.Models.Room
 {
     #pragma warning disable CS8618

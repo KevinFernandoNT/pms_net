@@ -28,7 +28,9 @@ namespace PMS_NET1.Controllers
                 DateOfBirth = new DateTime(1985, 5, 15),
                 Gender = "Male",
                 PreferredLanguage = "English",
-                SpecialRequests = "Vegetarian meal preference."
+                SpecialRequests = "Vegetarian meal preference.",
+                Role = "Admin",
+                Organization = 1
             },
             new User
             {
@@ -47,7 +49,9 @@ namespace PMS_NET1.Controllers
                 DateOfBirth = new DateTime(1990, 10, 20),
                 Gender = "Female",
                 PreferredLanguage = "Spanish",
-                SpecialRequests = "Near window seating."
+                SpecialRequests = "Near window seating.",
+                Role = "User",
+                Organization = 1
             }
         };
 
