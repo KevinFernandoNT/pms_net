@@ -2,7 +2,7 @@ using System;
 
 namespace PMS_NET1.Models.Reservation
 {
-        #pragma warning disable CS8618
+#pragma warning disable CS8618
 
     public class Reservation
     {
